@@ -1,0 +1,62 @@
+{
+  "created": 1552556495,
+  "d1": "ia600306.us.archive.org",
+  "d2": "ia800306.us.archive.org",
+  "dir": "/26/items/InformationM",
+  "files": [
+    {
+      "name": "InformationM.asr.js",
+      "source": "original",
+      "format": "Unknown",
+      "mtime": "1472358604",
+      "size": "63000",
+      "md5": "b6619c705e6ad9850255e5c9bc5068a1",
+      "crc32": "6ddf95a9",
+      "sha1": "682925278e990c702e0a66820aec1d3fb7213ce1"
+    }
+  ],
+  "files_count": 35,
+  "item_size": 684034044,
+  "metadata": {
+    "mediatype": "movies",
+    "identifier": "InformationM",
+    "publisher": "Eames (Charles And Ray)",
+    "description": "Applies graphic sensitivity to medium in cartoon form, and traces the history of storing and analyzing information from the days of the cavemen to today's age of electronic brains.",
+    "date": "1958",
+    "licenseurl": "http://creativecommons.org/licenses/publicdomain/",
+    "color": "color",
+    "sound": "sound",
+    "collection": "prelinger",
+    "title": "Information Machine, The",
+    "sponsor": "IBM",
+    "pick": "0",
+    "runtime": "00:09:44",
+    "updatedate": "2005-01-13 09:36:44",
+    "updater": "AV Geek Skip",
+    "subject": "need keyword",
+    "numeric_id": "3254",
+    "type": "MovingImage",
+    "proddate": "1958",
+    "collectionid": "InformationM",
+    "publicdate": "2007-03-01 10:46:58",
+    "backup_location": "ia903600_31",
+    "closed_captioning": "no"
+  },
+  "reviews": [
+    {
+      "review_id": "6198",
+      "reviewbody": "Wonderfully trippy little cartoon on the function of computers. The color's a little muddy, but it explains the use of computers--in the service of man, not its master--as a tool for the control of information and work, design, and for simulating reality.\n\nNot sure what need this short really fulfills, but it's fun (kinda like a Fractured Fairytale-style), doesn't pander, and doesn't panic.",
+      "reviewtitle": "If I only had a heart",
+      "reviewer": "dynayellow",
+      "reviewdate": "2003-09-15 15:54:20",
+      "createdate": "2003-09-15 15:54:20",
+      "stars": "3"
+    },
+  ],
+  "server": "ia800306.us.archive.org",
+  "uniq": 1228340219,
+  "workable_servers": [
+    "ia800306.us.archive.org",
+    "ia600306.us.archive.org"
+  ]
+}
