@@ -9,10 +9,20 @@ import RelatedContainer from "./Related";
 class Details extends Component {
   constructor(props) {
     super(props);
-    this.state = { id: props.id };
 
-    fetchMetadata(props.id).then((res) => {
-      this.setState(Object.assign({ id: props.id }, res.data));
+    this.state = { metadata: null };
+
+    this.fetchDetails(this.props.id);
+  }
+
+  componentDidUpdate({ id }) {
+    if (this.props.id === id) { return; }
+    this.fetchDetails(id);
+  }
+
+  fetchDetails(id) {
+    fetchMetadata(id).then((res) => {
+      this.setState(Object.assign({ id }, res.data));
     });
   }
 
@@ -29,7 +39,7 @@ class Details extends Component {
             <Link to="/">Back</Link>
           </p>
           <div id="stage">
-            <VideoEmbed id={this.state.id} />
+            <VideoEmbed id={this.props.id} />
           </div>
           <article className="column">
             <h1>{metadata.title}</h1>
@@ -37,7 +47,7 @@ class Details extends Component {
             <MetadataList terms={attrs} data={metadata} />
           </article>
         </section>
-        <RelatedContainer id={this.state.id} />
+        <RelatedContainer id={this.props.id} />
         <Reviews reviews={this.state.reviews} />
       </>
     );
